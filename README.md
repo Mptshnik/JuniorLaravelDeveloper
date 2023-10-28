@@ -6,4 +6,5 @@
 4) Сидеры - php artisan db:seed
 5) Для рассылки email необходимо настроить mailer в env файле. Я использовал smtp
 6) Команды php artisan queue:work - для запуска очередей, php artisan schedule:work - для запуска планировщика
+7) php artisan serve - запуск локального сервера
 
