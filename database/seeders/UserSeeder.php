@@ -16,11 +16,11 @@ class UserSeeder extends Seeder
         User::insert([
             [
                 'name' => 'Иванов',
-                'email' => 'cheburkov123@mail.ru'
+                'email' => 'info@datainlife.ru'
             ],
             [
                 'name' => 'Петров',
-                'email' => 'cheburkov1234@mail.ru'
+                'email' => ' job@datainlife.ru'
             ]
         ]);
     }
