@@ -33,7 +33,7 @@ class UserCheckExpiration extends Command
         $rows = GroupUser::where('expired_at', '<', now())->get();
 
         if(count($rows) == 0){
-            $this->info("Нет пользователей для исключения");
+            $this->info("Нет пользователей для исключения " . now());
             exit;
         }
 
@@ -54,6 +54,6 @@ class UserCheckExpiration extends Command
             }
         }
 
-        $this->info("Пользователи исключены");
+        $this->info("Пользователи исключены " . now());
     }
 }

@@ -15,11 +15,11 @@ class UserSeeder extends Seeder
     {
         User::insert([
             [
-                'name' => 'Иван',
+                'name' => 'Иванов',
                 'email' => 'cheburkov123@mail.ru'
             ],
             [
-                'name' => 'Вася',
+                'name' => 'Петров',
                 'email' => 'cheburkov1234@mail.ru'
             ]
         ]);

@@ -30,3 +30,5 @@ CMD bash -c "composer update && composer install && composer dump-autoload && ph
 
 CMD bash -c "php artisan queue:work"
 
+CMD bash -c "php artisan schedule:work"
+
